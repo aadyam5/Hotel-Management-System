@@ -1,11 +1,11 @@
-# 🏨 Grand Horizon — Hotel Management System (JavaFX)
+# Grand Horizon — Hotel Management System (JavaFX)
 
 A complete, standalone Hotel Management System desktop application built with
 **Java 17 + JavaFX 21**, demonstrating all core Java concepts in a real-world system.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 HMS/
@@ -42,7 +42,7 @@ HMS/
 
 ---
 
-## ✅ Java Concepts Demonstrated
+## Java Concepts Demonstrated
 
 | Concept              | Where Used |
 |----------------------|-----------|
@@ -71,7 +71,7 @@ HMS/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - **Java 17+** (JDK, not just JRE)
@@ -111,7 +111,7 @@ java --module-path /path/to/javafx-sdk/lib \
 
 ---
 
-## 🎮 Sample Data (Auto-Loaded on First Run)
+## Sample Data (Auto-Loaded on First Run)
 
 ### Rooms
 | Room # | Type     | Price/Day |
@@ -131,7 +131,7 @@ java --module-path /path/to/javafx-sdk/lib \
 
 ---
 
-## 🧪 Quick Test Workflow
+## Quick Test Workflow
 
 1. **Launch** the app → Dashboard shows 9 rooms, 5 customers
 2. **Room Management** → Add a new room (e.g., Room 401, Suite, ₹12000)
@@ -144,7 +144,7 @@ java --module-path /path/to/javafx-sdk/lib \
 
 ---
 
-## 💾 Data Files
+## Data Files
 
 All data is auto-saved to the `hms_data/` folder in the working directory:
 
@@ -159,7 +159,7 @@ All data is auto-saved to the `hms_data/` folder in the working directory:
 
 ---
 
-## 🎨 GUI Color Scheme
+## GUI Color Scheme
 
 | Color     | Hex       | Used For |
 |-----------|-----------|----------|
@@ -172,7 +172,7 @@ All data is auto-saved to the `hms_data/` folder in the working directory:
 
 ---
 
-## ⚠️ Troubleshooting
+## Troubleshooting
 
 **"Error: JavaFX runtime components are missing"**
 → Use `mvn javafx:run` instead of `java -jar`
