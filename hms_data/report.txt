@@ -1,0 +1,33 @@
+════════════════════════════════════════════════
+       HOTEL MANAGEMENT SYSTEM — REPORT
+       Generated: 31-03-2026 10:15:12
+════════════════════════════════════════════════
+
+── ROOMS (10) ──
+  Room[101 | Standard | ₹1500.00/day | Available]
+  Room[102 | Standard | ₹1500.00/day | Available]
+  Room[103 | Standard | ₹1800.00/day | Available]
+  Room[201 | Deluxe | ₹3000.00/day | Available]
+  Room[202 | Deluxe | ₹3200.00/day | Available]
+  Room[203 | Deluxe | ₹3500.00/day | Available]
+  Room[301 | Suite | ₹7000.00/day | Booked]
+  Room[302 | Suite | ₹8500.00/day | Available]
+  Room[303 | Suite | ₹10000.00/day | Available]
+  Room[104 | Deluxe | ₹5000.00/day | Available]
+
+── CUSTOMERS (6) ──
+  Customer[C001 | Arjun Sharma | Room:None]
+  Customer[C002 | Priya Menon | Room:None]
+  Customer[C003 | Rahul Nair | Room:None]
+  Customer[C004 | Divya Krishnan | Room:None]
+  Customer[C005 | Vikram Patel | Room:None]
+  Customer[C006 | aadya | Room:301]
+
+── BOOKINGS (2) ──
+  Booking[B0001 | Customer:C001 | Room:101 | 2026-03-29→2026-03-30 | ₹1500.00 | CHECKED_OUT]
+  Booking[B0002 | Customer:C006 | Room:301 | 2026-03-31→2026-04-04 | ₹33600.00 | ACTIVE]
+
+── REVENUE ──
+  Total Revenue: ₹1500.00
+
+════════════════════════════════════════════════
